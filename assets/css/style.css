@@ -4,8 +4,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-@media(prefers-coloe-scheme: dark){
-  body {background-color: black; color: white;}
+@media (prefers-coloe-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
 }
 /*--------------------------------------------------------------
 # General
@@ -36,11 +39,10 @@ body {
   background-image: url(../img/intro-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
-  
 }
 
 a {
-  color: #F5D042;
+  color: #f5d042;
   text-decoration: none;
 }
 
@@ -94,7 +96,7 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.logo{
+.logo {
   background: url(../img/logo\ w.png);
   width: 135px;
   height: 80px;
@@ -124,13 +126,13 @@ h6 {
   transition: 1s;
   clip-path: circle();
 }
-#header .profile img:hover{
+#header .profile img:hover {
   padding: 1px;
   border: 8px solid #fff;
   transition: 0.5s;
   cursor: pointer;
-  box-shadow:0 0 25px #F5D042;
-  box-shadow:0 0 25px #00ffcf;
+  box-shadow: 0 0 25px #f5d042;
+  box-shadow: 0 0 25px #00ffcf;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -167,8 +169,8 @@ h6 {
   background: #00ffcf;
   color: #fff;
   text-decoration: none;
-  box-shadow:0 0 15px #00ffcf;
-  box-shadow:0 0 15px #4e00c2;
+  box-shadow: 0 0 15px #00ffcf;
+  box-shadow: 0 0 15px #4e00c2;
 }
 
 #main {
@@ -299,7 +301,7 @@ h6 {
 }
 
 #hero p {
-margin: 30px 30px 30px;
+  margin: 30px 30px 30px;
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
@@ -311,7 +313,7 @@ margin: 30px 30px 30px;
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #F5D042;
+  border-bottom: 3px solid #f5d042;
 }
 
 @media (min-width: 1024px) {
@@ -352,7 +354,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #F5D042;
+  color: #f5d042;
 }
 
 .section-title h2::after {
@@ -361,7 +363,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #F5D042;
+  background: #f5d042;
   bottom: 0;
   right: 0;
 }
@@ -376,7 +378,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #F5D042;
+  color: #f5d042;
 }
 
 .about .content ul {
@@ -397,25 +399,24 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #F5D042;
+  color: #f5d042;
   line-height: 0;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.box-cover{
+.box-cover {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
   cursor: pointer;
-  
 }
-.img-cover{
+.img-cover {
   height: 100%;
   transition: all 0.3s;
 }
-.p-cover{
+.p-cover {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -426,12 +427,12 @@ section {
   transition: all 0.3s;
   text-shadow: 0px 0px 5px;
 }
-.box-cover:hover .img-cover{
+.box-cover:hover .img-cover {
   transform: scale(1.1);
   -webkit-filter: grayscale(100%) blur(2px);
   filter: grayscale(100%);
 }
-.box-cover:hover .p-cover{
+.box-cover:hover .p-cover {
   opacity: 1;
 }
 
@@ -450,7 +451,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #F5D042;
+  color: #f5d042;
   float: right;
   line-height: 0;
 }
@@ -518,7 +519,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #FFD700;
+  background-color: #ffd700;
 }
 
 /*--------------------------------------------------------------
@@ -529,13 +530,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #F5D042;
+  color: #f5d042;
 }
 
 .resume .resume-item {
   padding: 20px 20px 20px 20px;
   margin-top: -2px;
-  border-right: 2px solid #F5D042;
+  border-right: 2px solid #f5d042;
   position: relative;
 }
 
@@ -612,7 +613,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #F5D042;
+  color: #f5d042;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -638,6 +639,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -659,8 +661,6 @@ section {
   background: #00ffcf;
   transition: 0.3s;
   width: 50%;
-
-
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -771,7 +771,7 @@ section {
   height: 54px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #F5D042;
+  border: 1px solid #f5d042;
 }
 
 .services .icon i {
@@ -781,9 +781,8 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #F5D042;
+  background: #f5d042;
   cursor: pointer;
-
 }
 
 .services .icon-box:hover .icon i {
@@ -889,11 +888,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #F5D042;
+  border: 1px solid #f5d042;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F5D042;
+  background-color: #f5d042;
 }
 
 /*--------------------------------------------------------------
@@ -934,7 +933,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #F5D042;
+  color: #f5d042;
 }
 
 .contact .info .email p {
@@ -968,7 +967,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #F5D042;
+  background: #f5d042;
   color: #fff;
 }
 
@@ -1056,12 +1055,23 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #FFD700;
+  background: #ffd700;
   border: 0;
   padding: 10px 24px;
   color: black;
   transition: 0.4s;
   border-radius: 4px;
+}
+.btn-effect {
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: #210b02 0 0 0 0;
+  }
+  50% {
+    box-shadow: #ff280000 0 0 0 20px;
+  }
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1130,10 +1140,9 @@ section {
     display: inline-block;
   }
 }
-.color-form{
+.color-form {
   background: #bcbcbc21;
-color: white;
-
+  color: white;
 }
 /*--------------------------------------------------------------
 # Footer
