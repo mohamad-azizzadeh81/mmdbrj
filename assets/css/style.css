@@ -42,12 +42,12 @@ body {
 }
 
 a {
-  color: #f5d042;
+  color: #eb8307;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00ffcf;
+  color: #ffab44;
   text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #eb8307;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -84,7 +84,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #eb8307;
   color: #fff;
 }
 
@@ -131,7 +131,7 @@ h6 {
   border: 8px solid #fff;
   transition: 0.5s;
   cursor: pointer;
-  box-shadow: 0 0 25px #f5d042;
+  box-shadow: 0 0 25px #eb8307;
   box-shadow: 0 0 25px #00ffcf;
 }
 #header .profile h1 {
@@ -166,11 +166,11 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #00ffcf;
+  background: #eb8307;
   color: #fff;
   text-decoration: none;
   box-shadow: 0 0 15px #00ffcf;
-  box-shadow: 0 0 15px #4e00c2;
+  box-shadow: 0 0 15px #eb8307;
 }
 
 #main {
@@ -231,7 +231,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu li:hover > a i {
-  color: #00ffcf;
+  color: #eb8307;
 }
 
 /* Mobile Navigation */
@@ -244,7 +244,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #00ffcf;
+  background-color: #eb8307;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -313,7 +313,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #f5d042;
+  border-bottom: 3px solid #eb8307;
 }
 
 @media (min-width: 1024px) {
@@ -354,7 +354,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #f5d042;
+  color: #eb8307;
 }
 
 .section-title h2::after {
@@ -363,7 +363,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #f5d042;
+  background: #eb8307;
   bottom: 0;
   right: 0;
 }
@@ -378,7 +378,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #f5d042;
+  color: #eb8307;
 }
 
 .about .content ul {
@@ -399,7 +399,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #f5d042;
+  color: #eb8307;
   line-height: 0;
 }
 
@@ -451,7 +451,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #f5d042;
+  color: #eb8307;
   float: right;
   line-height: 0;
 }
@@ -519,7 +519,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ffd700;
+  background-color: #eb8307;
 }
 
 /*--------------------------------------------------------------
@@ -530,13 +530,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #f5d042;
+  color: #eb8307;
 }
 
 .resume .resume-item {
   padding: 20px 20px 20px 20px;
   margin-top: -2px;
-  border-right: 2px solid #f5d042;
+  border-right: 2px solid #eb8307;
   position: relative;
 }
 
@@ -613,7 +613,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #f5d042;
+  color: #eb8307;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -630,7 +630,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(251, 255, 0, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -658,7 +658,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: #00ffcf;
+  background: #eb8307;
   transition: 0.3s;
   width: 50%;
 }
@@ -708,14 +708,14 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #eb8307;
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #eb8307;
 }
 
 .portfolio-details .portfolio-info {
@@ -771,7 +771,7 @@ section {
   height: 54px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #f5d042;
+  border: 1px solid #eb8307;
 }
 
 .services .icon i {
@@ -781,7 +781,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #f5d042;
+  background: #eb8307;
   cursor: pointer;
 }
 
@@ -801,7 +801,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #eb8307;
 }
 
 .services .description {
@@ -892,7 +892,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f5d042;
+  background-color: #eb8307;
 }
 
 /*--------------------------------------------------------------
@@ -933,7 +933,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #f5d042;
+  color: #eb8307;
 }
 
 .contact .info .email p {
@@ -960,14 +960,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #eb8307;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #f5d042;
+  background: #eb8307;
   color: #fff;
 }
 
@@ -1055,7 +1055,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ffd700;
+  background: #eb8307;
   border: 0;
   padding: 10px 24px;
   color: black;
@@ -1075,7 +1075,9 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: none;
+  border: 1px solid #eb8307;
+  color: white;
 }
 
 @-webkit-keyframes animate-loading {
